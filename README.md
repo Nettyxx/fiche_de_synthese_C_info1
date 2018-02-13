@@ -70,7 +70,7 @@ on peut aussi bien afficher plusieurs variable de même type ou non en une seul 
 
 ```c
 int nb1=2 , nb2=3
-printf("les nombre sont %d et %d",nb1,nb2)
+printf("les nombre sont %d et %d",nb1,nb2) //va faire apparaitre à l'ecran : les nombre sont 2 et 3
 ```
 
 
