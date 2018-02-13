@@ -2,6 +2,7 @@
 
 ## Variable 
 
+### Déclaration
 ```c 
 int ne; //pour déclarer un nombre entier
 float nr; //pour déclarer un nombre réel
@@ -15,6 +16,8 @@ exemple :
 ```c
 int a,b,c;
 ```
+### Déclaration avec initialisation 
+
 on peut affecter une valeur à une variable directement lors de ça déclaration
 
 exemple : 
