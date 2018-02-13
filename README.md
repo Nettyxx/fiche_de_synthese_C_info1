@@ -2,6 +2,13 @@
 
 ## Variable 
 
+```c 
+int nb;
+
+
+
+```
+
 ## Entrées / Sorties
 
 ## Structure de Contrôles
