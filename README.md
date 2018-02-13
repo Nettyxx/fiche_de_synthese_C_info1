@@ -3,10 +3,9 @@
 ## Variable 
 
 ```c 
-int nb;
-
-
-
+int ne; //pour déclarer un nombre entier
+float nr; //pour déclarer un nombre réel
+char c; //pour déclarer un caractère
 ```
 
 ## Entrées / Sorties
