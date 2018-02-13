@@ -110,6 +110,19 @@ lettre=getch(); //ici on rentre la lettre saisi au clavier
 printf("le caractère est : %c",lettre); //ici nous auront l'affichage de notre lettre saisi précédemment
 ```
 
+#### Lecture d'une chaine de caractères : gets
+
+la fonction gets permet de lire des chaines de caractères comportant des caractères spéciaux que l'on ne peut lire que avec la fonction gets.
+
+example : 
+
+```c
+char* chaine de caractères;
+gets(s); //ici on saisi une chaine de caractères au clavier
+printf("la chaine de caractère est la suivante : %s",chaine de caractères) 
+//ici nous auront l'affichage de notre chaine de caractère saisi précédemment
+```
+
 
 
 
