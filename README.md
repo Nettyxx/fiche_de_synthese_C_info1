@@ -40,6 +40,13 @@ Y=x+y; //ici y va prendre la nouvelle valeur de x ET la valeur de y déclarée p
 
 ## Entrées / Sorties
 
+### Affichage à l'écran 
+
+```c
+printf("message"); //va faire apparaitre à l'ecran : message
+```
+
+
 ## Structure de Contrôles
 
 ## Variable Composées 
