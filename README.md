@@ -40,12 +40,29 @@ Y=x+y; //ici y va prendre la nouvelle valeur de x ET la valeur de y déclarée p
 
 ## Entrées / Sorties
 
-### Affichage à l'écran 
+### Affichage
+
+#### Affichage simple à l'écran 
 
 ```c
 printf("message"); //va faire apparaitre à l'ecran : message
 ```
+#### Affichage d'une variable
 
+```c
+int nb;
+printf("%d",nb); //va faire apparaitre à l'ecran le contenue de la variable int nb
+```
+Pour visualiser des variable d'autres type il faudra changer l'indicateur "%d" utilisé dnas l'exemple précédent 
+
+```c
+int nb;
+float nr;
+char c;
+printf("%d",nb); //va faire apparaitre à l'ecran le contenue de la variable int nb
+printf("%f",nr); //va faire apparaitre à l'ecran le contenue de la variable float nr
+printf("%c",c); //va faire apparaitre à l'ecran le contenue de la variable char c 
+```
 
 ## Structure de Contrôles
 
