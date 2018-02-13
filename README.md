@@ -7,6 +7,7 @@
 int ne; //pour déclarer un nombre entier
 float nr; //pour déclarer un nombre réel
 char c; //pour déclarer un caractère
+char* s; //pour déclarer une chaine de caractère
 ```
 on peut aussi déclarer plusieur variable sur une même ligne 
 sans réutiliser plusieurs fois la déclaration de type en insérant 
@@ -59,10 +60,19 @@ Pour visualiser des variable d'autres type il faudra changer l'indicateur "%d" u
 int nb;
 float nr;
 char c;
+char* s;
 printf("%d",nb); //va faire apparaitre à l'ecran le contenue de la variable int nb
 printf("%f",nr); //va faire apparaitre à l'ecran le contenue de la variable float nr
-printf("%c",c); //va faire apparaitre à l'ecran le contenue de la variable char c 
+printf("%c",c); //va faire apparaitre à l'ecran le contenue de la variable char c
+printf("%s",s); //va faire apparaitre à l'ecran la chaine de caractère contenue dans la variable char* s
 ```
+on peut aussi bien afficher plusieurs variable de même type ou non en une seul ligne
+
+```c
+int nb1=2 , nb2=3
+printf("les nombre sont %d et %d",nb1,nb2)
+```
+
 
 ## Structure de Contrôles
 
