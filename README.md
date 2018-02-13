@@ -1,4 +1,4 @@
-# fiche_de_synthese_C_info1
+# fiche de synthese C info1
 
 ## Variable 
 
