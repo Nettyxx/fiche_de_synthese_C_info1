@@ -53,7 +53,7 @@ printf("message"); //va faire apparaitre à l'ecran : message
 int nb;
 printf("%d",nb); //va faire apparaitre à l'ecran le contenue de la variable int nb
 ```
-Pour visualiser des variable d'autres type il faudra changer l'indicateur "%d" utilisé dnas l'exemple précédent 
+Pour visualiser des variable d'autres type il faudra changer l'indicateur "%d" utilisé dans l'exemple précédent 
 
 ```c
 int nb;
