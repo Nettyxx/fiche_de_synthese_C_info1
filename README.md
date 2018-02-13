@@ -98,7 +98,17 @@ scanf("%d,%d,&nb1,&nb2); // le "&" devant le nom de la variable sert à indiquer
 printf(" les nombres sont: %d et %d",nb1,nb2);
 ```
 
+#### Lecture d'un caractère : getch/getche
 
+Les fonctions getch permettent la lecture d'une variable de type caractère au clavier.
+
+exemple : 
+
+```c
+char lettre;
+lettre=getch(); //ici on rentre la lettre saisi au clavier
+printf("le caractère est : %c",lettre); //ici nous auront l'affichage de notre lettre saisi précédemment
+```
 
 
 
